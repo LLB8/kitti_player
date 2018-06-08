@@ -5,28 +5,28 @@ https://github.com/iralabdisco/kitti_player
 
 =========
 
-Kitti_player, a player for KITTI raw datasets
-Datasets can be downloaded from: http://www.cvlibs.net/datasets/kitti/raw_data.php
+Kitti_player, a player for KITTI raw datasets     
+Datasets can be downloaded from: http://www.cvlibs.net/datasets/kitti/raw_data.php     
 
-Allowed options:
-help           h    help message
-directory      d    *required* - path to the kitti dataset Directory
-frequency      f    set replay Frequency
-all            a    replay All data
-velodyne       v    replay Velodyne data
-gps            g    replay Gps data
-imu            i    replay Imu data
-grayscale      G    replay Stereo Grayscale images
-color          C    replay Stereo Color images
-viewer         V    enable image viewer
-timestamps     T    use KITTI timestamps
-stereoDisp     s    use pre-calculated disparities
-viewDisp       D    view loaded disparity images
-frame          F    start playing at frame...
-gpsPoints      p    publish GPS/RTK markers to RVIZ, having reference frame as <reference_frame> [example: -p map]
-synchMode      S    Enable Synch mode (wait for signal to load next frame [std_msgs/Bool "data: true"]
-
-kitti_player needs a directory tree like the following:
+Allowed options:      
+help___________h____help message    
+directory______d____*required* - path to the kitti dataset Directory    
+frequency______f____set replay Frequency    
+all____________a____replay All data    
+velodyne_______v____replay Velodyne data    
+gps____________g____replay Gps data    
+imu____________i____replay Imu data     
+grayscale______G____replay Stereo Grayscale images    
+color__________C____replay Stereo Color images    
+viewer_________V____enable image viewer    
+timestamps_____T____use KITTI timestamps     
+stereoDisp_____s____use pre-calculated disparities    
+viewDisp_______D____view loaded disparity images     
+frame__________F____start playing at frame...    
+gpsPoints______p____publish GPS/RTK markers to RVIZ, having reference frame as <reference_frame> [example: -p map]    
+synchMode______S____Enable Synch mode (wait for signal to load next frame [std_msgs/Bool "data: true"]    
+     
+kitti_player needs a directory tree like the following:    
 └── 2011_09_26_drive_0001_sync
     ├── image_00              
     │   └── data              
